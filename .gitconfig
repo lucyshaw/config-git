@@ -1,0 +1,44 @@
+[user]
+	name = Lucy Shaw
+	email = lucyshaw04@gmail.com
+
+[alias]
+	ci = commit
+	co = checkout
+	patch = ~git --no-pager diff --no-color
+	st = status
+	w = whatchanged
+
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	pager = true
+	status = auto
+	ui = true
+
+[color "diff"]
+        commit = yellow
+        frag = magenta
+        meta = yellow
+        new = green
+        old = red
+        whitespace = red reverse
+
+[color "diff-highlight"]
+        oldHighlight = red bold 52
+        oldNormal = red bold
+        newHighlight = green bold
+        newNormal = green bold 22
+
+[color "status"]
+        added = yellow
+        changed = green
+        untracked = cyan
+
+[core]
+        pager = diff-so-fancy | less --tabs=4 -FRX
+        whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
+
+[push]
+        default = tracking

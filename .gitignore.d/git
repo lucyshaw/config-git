@@ -1,0 +1,9 @@
+*
+!/bin
+!/bin/diff-so-fancy
+!/bin/git-id
+!/bin/git-list
+!/bin/git-number
+!/.gitconfig
+!/.gitignore.d
+!/.gitignore.d/git
